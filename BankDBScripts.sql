@@ -135,7 +135,7 @@ VALUES(1,'Kanchev', 'Kristian', 'kristiankanchev', 'VeryStrongPassword!','somera
 -- Insert Bank Account
 
 INSERT INTO BankAccounts(Customer_id,Account_id, CardType, CardNumber, Account_Created, Account_Closed, Account_Status, Pending_Balance, Avail_Balance, Branch_id)
-VALUES(1,1, 'D', 4627299917400254, 20120530,NULL,'Open', NULL, 1000, 1)
+VALUES(1,1, 'D', 4627299917400254, '20120530',NULL,'Open', NULL, 1000, 1)
 
 -- Insert Transactions
 
